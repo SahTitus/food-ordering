@@ -1,12 +1,21 @@
+node_modules
+.env
+.gitignore
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+.node_modules
 /.pnp
 .pnp.js
-
+.history
 # testing
 /coverage
+
+#
+public/sw.js
+public/workbox-*.js
+public/fallback-*.js
 
 # next.js
 /.next/
@@ -30,7 +39,4 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+node_modules
